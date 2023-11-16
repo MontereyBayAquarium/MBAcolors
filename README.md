@@ -183,6 +183,7 @@ Have you used `MBAcolors` in something? Please share to grow the list!
 ***
 [Smith et al. 2023, In review](INSERTLINK), **mba3** palette <br>
 <img src="Images/read_me_figures/Fig4_Smithetal2023.png" width=600>
+
 Figure 4. Changes in species abundance after (2014-2020) vs. before (2007-2013) 
 the sea urchin outbreak for persistent (Panel A) and transitioned sites (Panel B).
 Only species that significantly contributed (as determined by simultaneous generalized 

@@ -1,4 +1,4 @@
-s3method(print,MBApalette)
+#s3method(print,MBApalette)
 export(exhibits)
 export(mba_colors)
 export(print_colors)

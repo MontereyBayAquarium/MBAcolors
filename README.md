@@ -181,13 +181,9 @@ ggplot(mtcars, aes(x = mpg, y = wt, color = mpg)) +
 ## As Seen In:
 Have you used `MBAcolors` in something? Please share to grow the list! 
 ***
-[Smith et al. 2023, In review](INSERTLINK), **Coral** palette <br>
-<img src="ReadMeFigures/lawlor_arellano_2020.png" width=600>
+[Smith et al. 2023, In review](INSERTLINK), **mba3** palette <br>
+<img src="Images/read_me_figures/Fig4_Smithetal2023.png" width=600>
 
-***
-[Smith et al. 2023, In review](INSERTLINK), **Kelp** palette <br>
-<img src="ReadMeFigures/Patel_et_al_2020.png" width=500>
-***
 
 ***
 

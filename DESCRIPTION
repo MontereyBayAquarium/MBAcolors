@@ -1,11 +1,11 @@
-Package: MBAcolorsShell
+Package: MBAcolors
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Color Palette Package Inspired By Exhibits At Monterey Bay Aquarium 
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Author: Joshua G Smith
+Maintainer: Joshua G Smith <jossmith@mbayaq.org>
+Description: Color palettes for data visualizations in R, inspired by themes, animals, 
+and exhibits at Monterey Bay Aquarium. 
+License: CC-BY
 Encoding: UTF-8
 LazyData: true

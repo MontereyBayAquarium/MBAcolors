@@ -4,6 +4,8 @@
 #
 #
 
+#' @author Joshua G. Smith
+#' @version 0.1.0
 
 ################################################################################
 # Create the color palettes based on the exhibit themes
@@ -34,25 +36,24 @@ exhibits <- list(
 ################################################################################
 # Palette builder function, adapted from Jake Lawlor (2020). PNWColors: Color Palettes Inspired by Nature in the US Pacific Northwest. R package version 0.1.0. https://CRAN.R-project.org/package=PNWColors
 
-# Custom Palette Generator for MBA-inspired themes
-# 
+#' Custom Palette Generator for MBA-inspired themes
+#' 
 # This function creates custom color palettes for data visualization using 
 # themes inspired from exhibits at Monterey Bay Aquarium. The palettes are designed to work
 # with ggplot and offer both continuous and discrete color options.
 # 
-#' @param palette_name The name of the color palette to draw from.
+#' @param exhibits The name of the color palette to draw from.
 #' @param num_colors The number of colors to include in the palette.
-#' @param palette_type The type of palette to generate, either "discrete" or "continuous."
+#' @param type The type of palette to generate, either "discrete" or "continuous."
 # 
 #' @return A vector of colors for data visualization.
 # 
 #' @examples
-# mba_colors("mba", num_colors = 100, palette_type = "continuous")
-# mba_colors("Nautilus", num_colors = 5, palette_type = "discrete")
-# 
-#' @author Joshua G. Smith
-#' @version 0.1.0
+#' mba_colors("mba", num_colors = 100, palette_type = "continuous")
+#' mba_colors("Nautilus", num_colors = 5, palette_type = "discrete")
 #' 
+#' @export
+
 mba_colors <- function(exhibit, n_colors, type = c("discrete", "continuous"), rev = FALSE) {
   
   # Retrieve the palette based on the provided name
@@ -99,10 +100,10 @@ mba_colors <- function(exhibit, n_colors, type = c("discrete", "continuous"), re
 }
 
 #' @export
-#' 
-#' 
+
 
 # Function to create a ggplot2 scale for color using MBA palette with alpha
+#' @export
 scale_color_mba <- function(exhibit, n_colors, type = c("discrete", "continuous"), rev = FALSE, alpha = 1, limits = NULL, name = NULL, ...) {
   palette_colors <- mba_colors(exhibit, n_colors, type, rev)
   
@@ -116,6 +117,8 @@ scale_color_mba <- function(exhibit, n_colors, type = c("discrete", "continuous"
     return(ggplot2::scale_color_gradientn(colors = ggplot2::alpha(palette_colors, alpha), limits = limits, name = name, ...))
   }
 }
+
+#' @export
 
 # Function to create a ggplot2 scale for fill using MBA palette with alpha
 scale_fill_mba <- function(exhibit, n_colors, type = c("discrete", "continuous"), rev = FALSE, alpha = 1, limits = NULL, name = NULL, ...) {
@@ -134,7 +137,7 @@ scale_fill_mba <- function(exhibit, n_colors, type = c("discrete", "continuous")
 
 
 
-
+#' @export
 
 ################################################################################
 # 3. Palette visualization function
@@ -160,8 +163,8 @@ print_colors <- function(x, ...) {
 }
 
 #' @examples
-# my_palette <- mba_colors("seapalm", n_colors = 200, type = "continuous")
-# print_colors(my_palette)
+#' my_palette <- mba_colors("seapalm", n_colors = 200, type = "continuous")
+#' print_colors(my_palette)
 
 
 

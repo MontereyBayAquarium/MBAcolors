@@ -157,9 +157,9 @@ print_colors <- function(x, ...) {
         col = rev(x),  # Reverse the order of colors
         axes = FALSE)
   
-  #text(1, median(1:pallength),
-  #    labels = paste0(attr(x, "name"), ", n=", pallength),
-  #   cex = 3, family = "sans")
+  text(1, median(1:pallength),
+      labels = paste0(attr(x, "name"), ", n=", pallength),
+     cex = 3, family = "sans")
 }
 
 #' @examples

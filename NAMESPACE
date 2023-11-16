@@ -1,4 +1,4 @@
-export(print_colors)
+s3method(print,MBApalette)
 export(mba_colors)
 export(mba_colors)
 export(scale_fill_mba)

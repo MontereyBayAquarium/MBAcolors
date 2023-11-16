@@ -23,7 +23,7 @@ and [`PNWColors`](https://github.com/jakelawlor/PNWColors/tree/master) packages.
 
 # dev version:
 install.packages("devtools") 
-devtools::install_github("MBA/MBAcolors") 
+devtools::install_github("MontereyBayAquarium/MBAcolors") 
 ```
 
 ## Usage
@@ -31,9 +31,9 @@ devtools::install_github("MBA/MBAcolors")
 ```r
 library(MBAColors)
 
-names(exhibits)
- [1] "mba" "kelp" "rosa" "stream" "gpo" "nautilus" "sandy" 
- [8] "aviary" "drifters" "seapalm" "coralreef"    
+> names(exhibits)
+ [1] "mba"       "mba2"      "mba3"      "kelp"      "rosa"      "stream"    "gpo"    
+ [8] "nautilus"  "sandy"     "aviary"    "drifters"  "drifters2" "seapalm"  "coralreef" 
  ```
 
 ## Palettes

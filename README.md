@@ -183,7 +183,10 @@ Have you used `MBAcolors` in something? Please share to grow the list!
 ***
 [Smith et al. 2023, In review](INSERTLINK), **mba3** palette <br>
 <img src="Images/read_me_figures/Fig4_Smithetal2023.png" width=600>
-
+Figure 4. Changes in species abundance after (2014-2020) vs. before (2007-2013) 
+the sea urchin outbreak for persistent (Panel A) and transitioned sites (Panel B).
+Only species that significantly contributed (as determined by simultaneous generalized 
+linear models) to observed community structure differences between periods (after vs. before) are shown. Each point connected with a horizontal line represents the percent change in abundance. Points to the left of the vertical dashed line indicate a decline in abundance and points to the right of the line indicate an increase in abundance. Line color indicates the trophic function of a given species. Observed mean abundances before vs. after the sea urchin outbreak are parenthetically included next to each species ( † = density, no. individuals per 60 m2 transect; * = percent cover). Finally, sea star species were removed because of the wasting event that occurred in 2013. 
 
 ***
 
